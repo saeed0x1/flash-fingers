@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Fingers ⚡</title>
+    <link  href="/img/favicon.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/public/output.css">
+</head>
+<body class="bg-[#0f172a]">
+
+    <div class="my-1 shadow-xl py-6">
+        <h1 class="text-2xl md:text-3xl font-bold text-center text-gray-400">
+            FLASH FINGERS
+            <i class="las la-bolt scale-150"></i>
+        </h1>
+    </div>
+    
+
+    <div class="bg-slate-800 m-5 p-10 text-yellow-300 shadow-lg text-center font-bold text-xl" id="textsToWrite">
+        Random Text Area 💬
+    </div>
+
+    <div class="text-center my-6">
+
+        <textarea name="" id="writeText" cols="100" rows="4" placeholder="click start and start typing..." class="bg-slate-600 border-gray-700 outline-none shadow-lg hover:shadow-purple-900 border-4 max-w-full hover:border-purple-700 text-white p-1"></textarea>
+    </div>
+
+    <div class="button text-center">
+        <button id="btn" class="px-8 py-1 border-2 border-sky-300 lg:hover:bg-purple-800 text-white lg:transition lg:duration-75 lg:ease-in-out lg:hover:-translate-y-1 lg:hover:scale-110 lg:hover:shadow-md hover:shadow-purple-800 lg:hover:border-fuchsia-300 outline-none">START</button>
+    </div>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 my-4 sm:my-5 md:mx-2">
+        <div id="showResult" class="showResult bg-slate-800 text-white sm:mx-28  p-6 shadow-lg">
+            <div id="wordPerMin">
+               ⌨ Words/min : 
+            </div>
+            
+            <div id="totalError">
+               📛 Total Errors :
+            </div>
+            
+            <div id="score">
+                🏆 Your Score :
+            </div>
+            
+            <div id="totalTime">
+                ⌛ Time Taken :
+            </div>
+        </div>
+        <div class="bg-slate-800 shadow-lg md:mx-18 sm:mx-20 my-2 sm:my-1 text-white p-3">
+            <h3 class="font-bold">Instructions 🤠 : </h3>
+            <p class="mt-1">1. Start the game.</p>
+            <p class="">2. A random sentence will be displayed.</p>
+            <p class="">3. Type the sentence in the text box.</p>
+            <p class="">4. End the game.</p>
+        </div>
+    </div>
+    
+    <div class="text-center text-white">
+        
+        <i class="las la-code"></i>
+        <a href="https://twitter.com/zerodayrat">SAEED</a>
+    </div>
+    <!-- <script src="qoutes2.json"></script> -->
+    <script src="/src/script.js"></script>
+</body>
+</html>
